@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "tw": "npx tailwindcss -i ./src/assets/tailwind.css -o ./src/assets/dist/build.css --watch",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
@@ -14,6 +15,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.5.2",
+    "tailwindcss": "^3.4.1",
     "vite": "^5.0.10"
   }
 }
