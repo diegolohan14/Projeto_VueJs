@@ -54,7 +54,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  margin: 0;
+  margin: 10px 0;
   font-weight: normal;
 }
 
@@ -83,4 +83,22 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.Links{
+  width: 180px;
+  margin-right: 20px;
+}
+
+.Box{
+  padding: 10px 20px;
+}
+
+.formulario label{
+  font-size: 18px;
+  padding-right: 10px;
+}
+
+.option1{
+  min-width: 200px;
 }
